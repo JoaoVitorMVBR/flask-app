@@ -1,0 +1,23 @@
+# Ambientes virtuais
+.venv/
+venv/
+
+# Arquivos compilados Python
+*.pyc
+__pycache__/
+
+# Arquivos de IDE (ex: VS Code)
+.vscode/
+
+# Arquivos de configurações locais que não devem ir para o controle de versão
+.env
+*.env
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de cobertura de testes
+.coverage
+htmlcov/
