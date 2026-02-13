@@ -1,5 +1,3 @@
-Com base neste readme
-
 # 🚀 DevOps Roadmap: 8 Semanas de Prática no Mundo Real
 
 ** - Escolhida pela documentação robusta e pelo Free Tier para aprendizado.
