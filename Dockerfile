@@ -1,5 +1,7 @@
 FROM python:3.10-slim-bookworm
-WORKDIR /usr/local/app
-RUN pip3 install flask
-COPY app.py ./~
-EXPOSE 8080
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . /app
+EXPOSE 5000
+CMD ["python3", "src/app.py"]
